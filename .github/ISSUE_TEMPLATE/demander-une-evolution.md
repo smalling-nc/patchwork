@@ -1,5 +1,5 @@
 ---
-name: Demande d'évolution
+name: Demander une évolution
 about: Suggérez une idée pour ce projet
 title: "[FEATURE]"
 labels: enhancement
