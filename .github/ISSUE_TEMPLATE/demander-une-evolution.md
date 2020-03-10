@@ -2,7 +2,7 @@
 name: Demander une évolution
 about: Suggérez une idée pour ce projet
 title: "[FEATURE]"
-labels: enhancement
+labels: évolution
 assignees: xalhera
 
 ---

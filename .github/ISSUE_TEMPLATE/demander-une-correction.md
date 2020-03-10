@@ -2,7 +2,7 @@
 name: Demander une correction
 about: Aidez-nous à améliorer notre projet
 title: "[BUG]"
-labels: bug
+labels: correction
 assignees: xalhera
 
 ---
