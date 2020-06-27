@@ -1,5 +1,70 @@
-author: Christophe VERONS
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-description: Documentation de l'application Patchwork
+# Build settings
+theme: just-the-docs
+lang: fr-FR
+# Theme configuration
+title: Patchwork
+description: >- # this means to ignore newlines until "baseurl:"
+  Documentation utilisateur de l'application Patchwork.
+# logo: "/assets/images/logo.png"
+# Aux links for the upper right navigation
+aux_links:
+  "Patchwork sur GitHub":
+    - "//github.com/smalling-nc/patchwork"
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false
+heading_anchors: true
+# Footer content 
+# appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2020 Smalling"
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
 
-avatar: /assets/img/favicon.png
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+# ga_tracking: UA-5555555-55
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
